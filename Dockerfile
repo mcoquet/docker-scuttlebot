@@ -1,6 +1,6 @@
 FROM node:12.9.1
 
-MAINTAINER Filipe Farinha <filipe@ktorn.com>
+LABEL maintainer="miguel@mcoquet.com"
 
 RUN npm install -g ssb-server@15.3
 
